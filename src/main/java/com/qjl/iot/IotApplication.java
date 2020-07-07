@@ -10,7 +10,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Import;
 
 
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class,org.activiti.spring.boot.SecurityAutoConfiguration.class})
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 @Import({DynamicDataSourceConfig.class})
 public class IotApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {

@@ -2,86 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1133de2e-496c-443b-bbc8-c77caffe7875" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/annotation/EsAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/annotation/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/exception/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/exception/RRExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/BASE64Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/BigDecimalSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/CodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/CompareObjUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/ConfigConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/CustomJsonDateDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/DoubleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/FileDownloadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/GZipUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/HttpContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/ImportFuncTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/JxlsReadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/JxlsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/MapUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/MyX509TrustManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/RedisKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/ShiroUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/TestHttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/TreeNodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/ZLibUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/ValidatorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/AddGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/AliyunGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/QcloudGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/QiniuGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/UpdateGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/KaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/DataSourceNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/DynamicDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/annotation/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/aspect/DataSourceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/controller/SysOssController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/dao/SysOssDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/entity/SysOssEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/SysOssService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/impl/SysOssServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/AbstractCsvView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/AbstractPdfView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/CsvView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/ExcelView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/PdfView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/XLSTransformerExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/viewResolver/CsvViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/viewResolver/ExcelViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qjl/iot/viewResolver/PdfViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/Assert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/ValidatorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/AddGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/AliyunGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/QcloudGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/QiniuGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/validator/group/UpdateGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/HTMLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/SQLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/xss/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/AbstractCsvView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/AbstractPdfView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/CsvView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/ExcelView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/PdfView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/view/XLSTransformerExt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/viewResolver/CsvViewResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/viewResolver/ExcelViewResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/viewResolver/PdfViewResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/KaptchaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,92 +55,68 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="151" />
-          <entry key="xml" value="3" />
-          <entry key="yml" value="3" />
+          <entry key="class" value="2" />
+          <entry key="java" value="162" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="151" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="3" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="162" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="47" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="71" />
+          <entry key="txt" value="7" />
           <entry key="xml" value="4" />
-          <entry key="yml" value="16" />
+          <entry key="yml" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="47" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="71" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="XML" value="4" />
-          <entry key="YAML" value="16" />
+          <entry key="YAML" value="96" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/controller/SysOssController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/dao/SysOssDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/entity/SysOssEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/impl/SysOssServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="122">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/SysOssService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/MybatisPlusConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="112">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,19 +124,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>shiroFilter</find>
       <find>co</find>
       <find>lenovo</find>
       <find>a</find>
+      <find>mysql-connector-java</find>
+      <find>mysql</find>
+      <find>activi</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
-      <dir>D:\ideaworkspace04\gitTest1\src\main\java\com\qjl\iot</dir>
       <dir>D:\ideaworkspace04\gitTest1\src\main\resources</dir>
+      <dir>D:\ideaworkspace04\gitTest1\src\main\java\com\qjl\iot</dir>
+      <dir>D:\ideaworkspace04\gitTest1\src\main\java</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -225,7 +164,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/myTest1.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/common/utils/CodeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/FilterConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/RedisConfig.java" />
@@ -252,12 +190,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/DynamicDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/BpmsApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/aspect/SysLogAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/aspect/DataSourceAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/FilterConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/app/interceptor/AuthorizationInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/app/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/controller/SysUserChangePassFailRecordController.java" />
@@ -265,11 +201,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/dao/SysOssDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/impl/SysOssServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/SysOssService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/dao/BaseSeqDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/service/impl/BaseSeqServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/service/BaseSeqService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/BaseSeqMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/controller/SysController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/controller/SysTestController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -340,6 +281,54 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -351,62 +340,6 @@
               <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="oss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="oss" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
@@ -423,7 +356,11 @@
               <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
@@ -431,7 +368,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -447,7 +383,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594088985300" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594092330506" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -458,8 +394,8 @@
       <recent name="com.qjl.iot" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaworkspace04\gitTest1\src\main\resources\mapper\sys" />
       <recent name="D:\ideaworkspace04\gitTest1\src\main\resources\mapper\oss" />
+      <recent name="D:\ideaworkspace04\gitTest1\src\main\resources\mapper\sys" />
       <recent name="D:\ideaworkspace04\gitTest1\src\main\java\com\qjl\iot\modules" />
       <recent name="D:\ideaworkspace04\gitTest1\src\main\java\com\qjl\iot" />
       <recent name="D:\ideaworkspace04\gitTest1\src\main\java\com\qjl\iot\config" />
@@ -520,17 +456,25 @@
       <updated>1594016531853</updated>
       <workItem from="1594016538441" duration="990000" />
       <workItem from="1594086107070" duration="1976000" />
-      <workItem from="1594088150683" duration="545000" />
+      <workItem from="1594088150683" duration="4029000" />
     </task>
+    <task id="LOCAL-00001" summary="项目初始化">
+      <created>1594089059773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594089059773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3511000" />
+    <option name="totallyTimeSpent" value="6995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4219887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4219887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -541,7 +485,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.59325045" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.092362344" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5044405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -571,90 +515,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/DataSourceNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/DynamicDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/annotation/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/common/aspect/SysLogAspect.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/aspect/SysLogAspect.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/common/annotation/SysLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/common/annotation/EsAnno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/datasources/aspect/DataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatisplus-spring-boot-starter/1.0.5/mybatisplus-spring-boot-starter-1.0.5.jar!/com/baomidou/mybatisplus/spring/boot/starter/MybatisPlusAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -675,19 +540,6 @@
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330" />
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/app/controller/AppTestController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/app/service/UserService.java" />
@@ -816,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/oss/service/impl/SysOssServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -830,6 +675,119 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/oss/SysOssDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/controller/SysTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/KaptchaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/DemoConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/common/utils/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>

@@ -251,11 +251,7 @@
             <version >1.5.4 </version >
         </dependency>
 
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-spring-boot-starter-basic</artifactId>
-            <version>6.0.0</version>
-        </dependency>
+
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
