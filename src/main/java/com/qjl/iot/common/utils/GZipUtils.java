@@ -220,28 +220,4 @@ public abstract class GZipUtils {
         decompress(file, delete);
     }
 
-
-    public static void main(String[] args)  throws Exception {
-
-        String inputStr = "zjw";
-
-            System.err.println("原文:\t" + inputStr);
-
-            byte[] input = inputStr.getBytes();
-            System.err.println("长度:\t" + input.length);
-
-            byte[] data = compress(input);
-            System.err.println("压缩后:\t");
-        for (int i = 0; i < data.length; i++) {
-            System.out.println(data[i]);
-        }
-            System.err.println("长度:\t" + data.length);
-
-            byte[] output = GZipUtils.decompress(data);
-            String outputStr = new String(output);
-            System.err.println("解压缩后:\t" + outputStr);
-            System.err.println("长度:\t" + output.length);
-
-    }
-
 }

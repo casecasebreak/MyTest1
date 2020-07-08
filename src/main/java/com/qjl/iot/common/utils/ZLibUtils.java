@@ -139,29 +139,4 @@ public abstract class ZLibUtils {
         }
         return o.toByteArray();
     }
-
-    public static void main(String[] args){
-        System.err.println("字节压缩／解压缩测试");
-        String inputStr = "zjw";
-        System.err.println("输入字符串:\t" + inputStr);
-        byte[] input = inputStr.getBytes();
-        System.err.println("输入字节长度:\t" + input.length);
-
-        String ss = "ZUp6VmwwMXJFMUVVaHY5TDRPNDZ3N2tmNTM1MDdWSlF4SjI0NktLSVVCUzByc1NWNUtPQkZCY2hDaWxJUWFGQ2FCRkt0QTM5TjVtWjlsOTRTeEpKNXA0NE15SFlCbWFUOTE3dTVIM091ZWVjZWZhK2xuYStadjEyMG1wa1AwZTE3VnJhSFNiMTc3V3Qydlg1UmRZOVNiOGNacU9HMTZQSWEwOWY3Ky9zK1I4U25OSEt4QUJlRk1CZEJOdy9mZ1htTlVGb2NxSVJKeWhpTnhLYUpqUkRhSmJRM0p6MllTc3duM3pyM1RTYmFldFRlalFvUUdEQlNpZGlaMVlsZ0VvSkpXS1FaUUFJb1JYSEdGeWVnalJHWW14eDNTU3l3V0Q4K3lEdFhXVEhnL0ZvV0FDREc2RzRqSTFiRlVaNHdEM0locjhNcnEvT2loa0l0RnBBckZkbUVCNXdueGlrUjUya2ZWeFVGMjZ6MGNacTlUemdVb0NKRWNzdytPK1hZbG9lenZwSjYwZDIyQ3lBWVJRTE1MQUFBc3Nqc0lJRjVsa1FmaFlFbndWdVdlQ1ZCVTRaNmJOUnYvbDRVcW9NU2dNYVpReVl0K3J2czRLRmhYK0VmVUdibWhhZ2dZdzY1MGhsdjFMY0lIRURoTmFMK2hRRzF4cXJCUC9oZzhlbGFxRVZCaDNSR1FPOUlvKzdyQUxlZTZrYXlFRW9SNWtQRnpiSS9aUGRGKy8yZHQ2TUx5K1Rkci9rcmNERjNLMVlCaWtDK1NPbkVMeEtjZUQ1N1liZWJtZTlCNm9RZWZUcTdjdjkzUXBBdUlDMUE1RkFBdUUwa1B6dVdYV2dlZVIzRnpXRzdtbHkwSmtBS0NDeGJncDNPaTcvT2swLzEwdlpOczdndXExejRIUUdJTjBoaE5Sa2grQnVTWWZJZDVvaUhQWGhlTlFyaFFNMVYwaDB6VURmb0d5WXpFVkZoY0J4ZTl2WG5jMWJqeXBOREFKUktsRHozMTlxZHM2U3djRy93S0NtNXNYSStyOEZ4TUFZTFJzZW9xclRROW1oVWZQTkdCcWYvd0YwbURRKw==";
-
-        byte[] d1=Base64.getDecoder().decode(ss);
-        byte[] data=Base64.getDecoder().decode(d1);
-        // byte[] data = ZLibUtils.compress(input);
-        System.err.println("压缩后字节长度:\t" + data.length);
-        for(byte bt: data) {
-            System.err.print(Integer.toHexString((int)bt & 0xff) + ",");
-        }
-        for(byte bt: input) {
-            System.out.print(bt + ",");
-        }
-        byte[] output = ZLibUtils.decompress(data);
-        System.err.println("解压缩后字节长度:\t" + output.length);
-        String outputStr = new String(output);
-        System.err.println("输出字符串:\t" + outputStr);
-    }
 }
