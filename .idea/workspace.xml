@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1133de2e-496c-443b-bbc8-c77caffe7875" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/DemoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/FilterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/KaptchaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qjl/iot/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,16 +43,16 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="java" value="71" />
-          <entry key="txt" value="48" />
-          <entry key="xml" value="4" />
+          <entry key="txt" value="65" />
+          <entry key="xml" value="14" />
           <entry key="yml" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="71" />
-          <entry key="PLAIN_TEXT" value="55" />
-          <entry key="XML" value="4" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="XML" value="14" />
           <entry key="YAML" value="96" />
         </counts>
       </usages-collector>
@@ -69,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-473">
-              <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
+            <state relative-caret-position="209">
+              <caret line="336" column="65" selection-start-line="336" selection-start-column="65" selection-end-line="336" selection-end-column="65" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -97,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="274">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,6 +120,8 @@
       <find>activi</find>
       <find>jar</find>
       <find>data</find>
+      <find>maven-clean-plugin</find>
+      <find>com.mycompany.app.App</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -134,6 +130,7 @@
       <dir>D:\ideaworkspace04\gitTest1\src\main\resources</dir>
       <dir>D:\ideaworkspace04\gitTest1\src\main\java\com\qjl\iot</dir>
       <dir>D:\ideaworkspace04\gitTest1\src\main\java</dir>
+      <dir>D:\ideaworkspace04\gitTest1</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -195,8 +192,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/controller/SysController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/modules/sys/controller/SysTestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -296,16 +293,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,7 +361,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594109121026" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594199396459" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -448,7 +435,7 @@
       <workItem from="1594016538441" duration="990000" />
       <workItem from="1594086107070" duration="1976000" />
       <workItem from="1594088150683" duration="6197000" />
-      <workItem from="1594190749653" duration="3121000" />
+      <workItem from="1594190749653" duration="3739000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1594089059773</created>
@@ -464,15 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594092383181</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改打包jar、删除部分插件">
+      <created>1594199164076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594199164076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12284000" />
+    <option name="totallyTimeSpent" value="12902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42926434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -518,7 +511,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
     <MESSAGE value="项目初始化更改为华为云数据库，解决由于activiti引起启动报错问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化更改为华为云数据库，解决由于activiti引起启动报错问题" />
+    <MESSAGE value="修改打包jar、删除部分插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改打包jar、删除部分插件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatisplus-spring-boot-starter/1.0.5/mybatisplus-spring-boot-starter-1.0.5.jar!/com/baomidou/mybatisplus/spring/boot/starter/MybatisPlusAutoConfiguration.class">
@@ -641,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -658,10 +642,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qjl/iot/IotApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
+        <state relative-caret-position="209">
+          <caret line="336" column="65" selection-start-line="336" selection-start-column="65" selection-end-line="336" selection-end-column="65" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
