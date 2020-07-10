@@ -4,7 +4,7 @@ server:
     uri-encoding: UTF-8
     max-threads: 1000
     min-spare-threads: 30
-  port: 8090
+  port: 9080
   connection-timeout: 5000ms
   ssl:
     key-store: classpath:4188160_iot.mqtt.cn.pfx
@@ -13,7 +13,8 @@ server:
     enabled: true
   servlet:
     context-path: /iot-dev
-
+http:
+  port:8090
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
