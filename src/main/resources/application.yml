@@ -8,7 +8,31 @@ server:
   connection-timeout: 5000ms
   ssl:
     key-store: classpath:4188160_iot.mqtt.cn.pem
-    key-store-password: 4188160
+    key-store-password: MIIEowIBAAKCAQEA52fSXtCm2frDGiGY0DQULswbJng2q3b1U5BbpkXkVBN4tILP
+      Gwfe1xcjDbITvJn4qKHN7AzwPdLK7uz609WJcr9SUhT5wu2+6RliMxzh1v1ysECs
+      atswyJLgV10yxIvG64AZMl0jpw5//vs3MHNLc3e0MaBOYPO+6QqVtwnB/ht3Sv5P
+      E51KrW8VPZSwoNzeTaVRoegeNywKAJwRbEfWgicwDfHNSaYPovPtTvB8A3MoQVkL
+      di49evGW4j/fG6JUgA4ud8LBUHbNVL+guj4CKyyGTBdpeN5oqL/65Kzxf5nkv1IQ
+      Uosio1bFSAOSBNzRXpPFw+M3qDFff2zzht2+SwIDAQABAoIBAF0x6P2alrgPT+gE
+      Q+EGOGKofP6/R3VC0Ya4CtEqMMzTkrdQP0ypnMuPW+S2JVC9yfFQSPiaNV8Qt/4F
+      nvcVduepueOo4vXofgyu1mezaBkHtdraERZv9HOzA3rr4/hYOuK5kmxAKo2rP01X
+      q2Bt7qMwQHgEEczmHasJQkaXPXOyo8s9Z9WR2mg9ZLakdDYzAgXRronm840VVxAC
+      yjEq6SVjzRhv7fVtCUolL/oXlfKfzAmE7ympETK0Sop+YqvvrADwVgmQsVAJfKhf
+      oR/a3ibSz2hiYrukp5w4iLp1HFDF92SYQueT/PJE88enP1IliClzNVN2AtU6ob4S
+      2yB6StECgYEA/+mSI/Pp+LLhzKQPRvjYs4xQgTRj3sPXcxwqlVPGlzQSF6zryBGf
+      pXaOmqI0AbhyEoWz0EwfZ1+XelNnI6RwQQd+kRzNSsTiqjFo4+/mckL66Dgpdkbx
+      I6mHMCWE+WYgSY5qc1L3G8gY9BNocqdVRpesfzT62z2EkMhAuFwn6k0CgYEA53wa
+      X+Wz0ybDPZTB2YUvNbUOFZZCEOTmLDA29T0jPWarmjDAH9H655KBCsCulo3pX6qu
+      jhsZf0M9bcB6Xg83lfUsNUPFTs9yGxbOAN08cXRgWIrmzPDyxDjkSJf0IRbfdx/C
+      jEJWtBm+cno8bgMbAV5zDXZgC8QHbVkulgkAZvcCgYAChcThAdh+kRTUtZFI+873
+      Bh0NCP0rBvcqtU5eJnNArky3Wwb/89yE/wQs1gh5M947/IFnPjjZBgIyPHw5x7cr
+      jO1cdNI5OHObhd0o0gaNfceHXnZaKhzaYyNoABatdqo+z16RQHIbHf/Q+BgBeVDH
+      31rd7iHC43pZCwBIUPA7yQKBgCxKD1XHwiclJHfUzV4L4GN7N62jqRJIaU2NEAbN
+      4r8ttKl0qF2uND44Rp5DDWRa1IrsQieIQdGakNc922vBp5X2abXrOIYCpMdQDqwV
+      qCng5UorkUsm0pv+cpb9E8V89dZ56iQh0Sr2PfzzLDq0N2eEpaiuvGOj5vPh+0rT
+      gBMzAoGBALFiy2k8NRqRMjas5gemO29itaq9lRLL85UNzkVGfJFR0z/udK0OMojH
+      Oilu6J5x/cH7WGK+qVMp6xM2MhrYL8FQM7oq9P6bnHbZxYnF6FdPO7dtJ/P8QFVX
+      JXbMTeZKENAHmIDmpTgU/2kcmrDQ7p8Dd0sllr2Nq2I7vLYkx89G
     key-store-type: PKCS12
     enabled: true
   servlet:
