@@ -13,11 +13,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ConnectorConfig {
-    @Value("${http.port}")
-    private Integer port;
-
-    @Value("${server.port}")
-    private Integer httpsPort;
+//    @Value("${http.port}")
+//    private Integer port;
+//
+//    @Value("${server.port}")
+//    private Integer httpsPort;
 
     @Bean
     public ServletWebServerFactory servletContainer() {
@@ -43,8 +43,8 @@ public class ConnectorConfig {
         Connector connector = new Connector(TomcatServletWebServerFactory.DEFAULT_PROTOCOL);
         connector.setSecure(false);
         connector.setScheme("http");
-        connector.setPort(port);
-        connector.setRedirectPort(httpsPort); // 当http重定向到https时的https端口号
+        connector.setPort(8090);
+        connector.setRedirectPort(9080); // 当http重定向到https时的https端口号
         return connector;
     }
 }
