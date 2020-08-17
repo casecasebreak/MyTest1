@@ -19,6 +19,6 @@ public class SysTestController {
     @RequestMapping("/test1")
     public R list(@RequestParam Map<String, Object> params){
 
-        return R.ok().put("page", "这是一个测试数据");
+        return R.ok().put("page", "这是一个docker测试数据");
     }
 }
